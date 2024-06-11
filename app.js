@@ -24,17 +24,17 @@ let data =async function(search){
     type.innerHTML=jsondata.weather[0].main
 
     if(type.innerHTML == "Clouds"){
-        image.src="images/Clouds.png"
+        img.src="images/Clouds.png"
     }else if(type.innerHTML == "Clear"){
-        image.src="images/clears.png"
+        img.src="images/clears.png"
     }else if(type.innerHTML == "Rain"){
-        image.src="images/rain.png"
+        img.src="images/rain.png"
     }else if(type.innerHTML == "Snow"){
-        image.src="rain.png"
+        img.src="rain.png"
     }else if(type.innerHTML == "Haze"){
-        image.src="images/haze.png"
+        img.src="images/haze.png"
     }else if(type.innerHTML == "Strom"){
-        image.src="images/strom.png"
+        img.src="images/strom.png"
     }
     input.value=""
 }
