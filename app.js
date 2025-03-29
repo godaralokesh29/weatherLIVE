@@ -20,7 +20,7 @@ let data =async function(search){
     }
 
     city.innerHTML=jsondata.name;
-    temp.innerHTML=Math.floor(jsondata.main.temp)+"deg"   //check these thing from inspect 
+    temp.innerHTML=Math.floor(jsondata.main.temp)+"kelvin"   //check these thing from inspect 
     type.innerHTML=jsondata.weather[0].main
 
     if(type.innerHTML == "Clouds"){
